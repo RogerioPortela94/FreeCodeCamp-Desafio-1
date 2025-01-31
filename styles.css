@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#survey-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#description{
+    text-align:center;
+    margin-bottom: 10%;
+}
+
+label {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#recommendation, #topics{
+    display: inline;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+input[type=radio],input[type=checkbox]{
+    width: 15;
+}
+
+.radio-group, .checkbox-group {
+    margin-top: 5px;
+}
